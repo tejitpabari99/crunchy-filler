@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Crunchyroll Filler Episode Marker",
+  "version": "1.0",
+  "permissions": ["activeTab", "storage", "offscreen"],
+  "host_permissions": [
+    "https://www.animefillerlist.com/*",
+    "https://www.crunchyroll.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.crunchyroll.com/series/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
