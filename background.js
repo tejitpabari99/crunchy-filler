@@ -19,5 +19,8 @@ async function createOffscreen() {
         });
       });
       return true;  // Indicates we will send a response asynchronously
+    } else {
+      sendResponse({result: 'error', message: 'Unknown action type'});
     }
+    return true;  // Indicates we will send a response asynchronously
   });
