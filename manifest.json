@@ -13,17 +13,11 @@
   "content_scripts": [
     {
       "matches": ["https://www.crunchyroll.com/series/*"],
-      "js": ["content.js"],
+      "js": ["fuse.basic.min.js", "content.js"],
       "css": ["styles.css"]
     }
   ],
   "action": {
     "default_popup": "popup.html"
-  },
-  "web_accessible_resources": [
-    {
-      "resources": ["https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.basic.min.js"],
-      "matches": ["<all_urls>"]
-    }
-  ]
+  }
 }

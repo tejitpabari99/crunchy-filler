@@ -1,12 +1,14 @@
 const Fuse = window.Fuse;
 const fuseOptions = {
-  keys: ['title'],
+  keys: ["title"],
   includeScore: true,
-  threshold: 0.3 // Adjust this for fuzziness, lower is more precise
+  threshold: 0.3, // Adjust this for fuzziness, lower is more precise
 };
+
 
 function addStarToFillerEpisodes(fillerEpisodes) {
   const episodeCards = document.querySelectorAll(".playable-card--GnRbX");
+  console.log();
   episodeCards.forEach((card) => {
     if (card.querySelector(".filler-star")) {
       return; // Skip if the star is already added
@@ -38,21 +40,17 @@ function getAnimeTitle() {
 
 function getFillerListUrl(animeTitle, fuseAgent) {
   const result = fuseAgent.search(animeTitle);
-  const preciseMatch = result.find(item => item.item.title.toLowerCase() === animeTitle.toLowerCase());
+  const preciseMatch = result.find(
+    (item) => item.item.title.toLowerCase() === animeTitle.toLowerCase()
+  );
   if (preciseMatch) {
     return `https://www.animefillerlist.com/shows/${preciseMatch.item.url.toLowerCase()}`;
-  }
-  else if (result) {
+  } else if (result) {
     return `https://www.animefillerlist.com/shows/${result[0].item.url.toLowerCase()}`;
-  }
-  else {
+  } else {
     formattedTitle = animeTitle.toLowerCase().replace(/\s+/g, "-");
     return `https://www.animefillerlist.com/shows/${formattedTitle}`;
   }
-  // var formattedTitle = formattedTitleJSON[animeTitle.toLowerCase()];
-  // if (formattedTitle) {
-  //   return `https://www.animefillerlist.com/shows/${formattedTitle.toLowerCase()}`;
-  // } 
 }
 
 function handleShowMoreButtonClick(fillerEpisodes) {
@@ -64,7 +62,7 @@ function handleShowMoreButtonClick(fillerEpisodes) {
       // Wait for the new episodes to load
       setTimeout(() => {
         addStarToFillerEpisodes(fillerEpisodes);
-      }, 1000); // Adjust the delay as needed
+      }, 50); // Adjust the delay as needed
     });
   }
 }
@@ -88,19 +86,16 @@ function fetchFormattedTitleJSON() {
 
 function initializeFillerMarker() {
   const animeTitle = getAnimeTitle();
+  console.log("Anime Title:", animeTitle);
   if (animeTitle) {
     fetchFormattedTitleJSON().then((formattedTitleJSON) => {
-      const fuse = new Fuse(formattedTitleJSON, fuseOptions);
+      const fuseAgent = new Fuse(formattedTitleJSON, fuseOptions);
 
-      const fillerListUrl = getFillerListUrl(
-        animeTitle,
-        formattedTitleJSON
-      );
+      const fillerListUrl = getFillerListUrl(animeTitle, fuseAgent);
       if (fillerListUrl) {
         chrome.runtime.sendMessage(
           { action: "getFillerEpisodes", url: fillerListUrl },
           (response) => {
-            console.log("Response fillerEpisodes", response);
             if (response.fillerEpisodes) {
               setTimeout(() => {
                 addStarToFillerEpisodes(response.fillerEpisodes);
@@ -126,7 +121,7 @@ const observer = new MutationObserver((mutations, obs) => {
     ".hero-heading-line .heading--nKNOf"
   );
   if (titleElement) {
-    obs.disconnect();
+    // obs.disconnect();
     initializeFillerMarker();
   }
 });
