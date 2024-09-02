@@ -5,7 +5,6 @@ const fuseOptions = {
   threshold: 0.3, // Adjust this for fuzziness, lower is more precise
 };
 
-
 function addStarToFillerEpisodes(fillerEpisodes) {
   const episodeCards = document.querySelectorAll(".playable-card--GnRbX");
   console.log();
@@ -96,13 +95,18 @@ function initializeFillerMarker() {
         chrome.runtime.sendMessage(
           { action: "getFillerEpisodes", url: fillerListUrl },
           (response) => {
-            if (response.fillerEpisodes) {
-              setTimeout(() => {
-                addStarToFillerEpisodes(response.fillerEpisodes);
-              }, 1000);
-              handleShowMoreButtonClick(response.fillerEpisodes);
+            if (chrome.runtime.lastError) {
+              console.error("SendMessage Error:", chrome.runtime.lastError);
+              chrome.runtime.reload(); // Reload the extension
             } else {
-              console.error("Failed to get filler episodes:", response.error);
+              if (response.fillerEpisodes) {
+                setTimeout(() => {
+                  addStarToFillerEpisodes(response.fillerEpisodes);
+                }, 1000);
+                handleShowMoreButtonClick(response.fillerEpisodes);
+              } else {
+                console.error("Failed to get filler episodes:", response.error);
+              }
             }
           }
         );
