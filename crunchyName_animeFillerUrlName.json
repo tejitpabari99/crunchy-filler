@@ -1,3 +1,1454 @@
-{
-    "Assassination Classroom": "ansatsu-kyoushitsu-assassination-classroom"
-}
+[
+    {
+        "title": "86 eighty-six",
+        "url": "86-eighty-six"
+    },
+    {
+        "title": "a certain magical index",
+        "url": "certain-magical-index"
+    },
+    {
+        "title": "a certain scientific accelerator",
+        "url": "sh%c5%8dnan-pure-love-gang"
+    },
+    {
+        "title": "a certain scientific railgun",
+        "url": "a-certain-scientific-railgun"
+    },
+    {
+        "title": "ace attorney",
+        "url": "ace-attorney"
+    },
+    {
+        "title": "ace of the diamond",
+        "url": "ace-diamond"
+    },
+    {
+        "title": "ace of the diamond: act ii",
+        "url": "ace-diamond-act-ii"
+    },
+    {
+        "title": "ajin: demi-human",
+        "url": "ajin-demi-human"
+    },
+    {
+        "title": "akame ga kill!",
+        "url": "akame-ga-kill"
+    },
+    {
+        "title": "angel beats!",
+        "url": "angel-beats"
+    },
+    {
+        "title": "angel heart",
+        "url": "angel-heart"
+    },
+    {
+        "title": "another",
+        "url": "another"
+    },
+    {
+        "title": "aoashi",
+        "url": "aoashi"
+    },
+    {
+        "title": "assassination classroom",
+        "url": "ansatsu-kyoushitsu-assassination-classroom"
+    },
+    {
+        "title": "attack on titan",
+        "url": "attack-titan"
+    },
+    {
+        "title": "attack on titan films",
+        "url": "digimon-frontier"
+    },
+    {
+        "title": "attack on titan oads",
+        "url": "attack-titan-ova-0"
+    },
+    {
+        "title": "attack on titan: junior high",
+        "url": "attack-on-titan-junior-high"
+    },
+    {
+        "title": "beastars",
+        "url": "beastars"
+    },
+    {
+        "title": "beelzebub",
+        "url": "beelzebub"
+    },
+    {
+        "title": "berserk",
+        "url": "berserk"
+    },
+    {
+        "title": "berserk",
+        "url": "berserk-2016"
+    },
+    {
+        "title": "berserk: the golden age arc",
+        "url": "berserk-golden-age-arc"
+    },
+    {
+        "title": "berserk: the golden age arc - memorial edition",
+        "url": "berserk-golden-age-arc-memorial-edition"
+    },
+    {
+        "title": "beyblade burst evolution",
+        "url": "beyblade-burst-god"
+    },
+    {
+        "title": "beyblade burst quadstrike",
+        "url": "beyblade-burst-quadstrike"
+    },
+    {
+        "title": "beyblade metal fusion",
+        "url": "beyblade-metal-fight"
+    },
+    {
+        "title": "beyblade x",
+        "url": "beyblade-x"
+    },
+    {
+        "title": "black butler",
+        "url": "black-butler"
+    },
+    {
+        "title": "black butler ovas",
+        "url": "beyblade-burst-all-seasons"
+    },
+    {
+        "title": "black cat",
+        "url": "black-cat"
+    },
+    {
+        "title": "black clover",
+        "url": "black-clover"
+    },
+    {
+        "title": "black clover film",
+        "url": "blue-lock"
+    },
+    {
+        "title": "black clover ovas",
+        "url": "food-wars-fifth-plate"
+    },
+    {
+        "title": "black lagoon",
+        "url": "black-lagoon"
+    },
+    {
+        "title": "blade of the immortal",
+        "url": "blade-immortal-2019"
+    },
+    {
+        "title": "bleach",
+        "url": "bleach"
+    },
+    {
+        "title": "bleach films",
+        "url": "pok%c3%a9mon-journeys"
+    },
+    {
+        "title": "bleach ovas",
+        "url": "food-wars-fourth-plate"
+    },
+    {
+        "title": "bleach: thousand-year blood war",
+        "url": "bleach-thousand-year-blood-war"
+    },
+    {
+        "title": "blood blockade battlefront",
+        "url": "blood-blockade-battlefront"
+    },
+    {
+        "title": "blue exorcist",
+        "url": "blue-exorcist"
+    },
+    {
+        "title": "blue lock",
+        "url": "blue-lock-0"
+    },
+    {
+        "title": "bobobo-bo bo-bobo",
+        "url": "bobobo-bo-bobo"
+    },
+    {
+        "title": "boruto: naruto next generations",
+        "url": "boruto-naruto-next-generations"
+    },
+    {
+        "title": "boruto: naruto next generations",
+        "url": "boruto-naruto-next-generations-definitive-filler-list"
+    },
+    {
+        "title": "btooom!",
+        "url": "btooom"
+    },
+    {
+        "title": "bungo stray dogs",
+        "url": "bungo-stray-dogs"
+    },
+    {
+        "title": "burn the witch",
+        "url": "burn-witch"
+    },
+    {
+        "title": "buso renkin",
+        "url": "buso-renkin"
+    },
+    {
+        "title": "campione!",
+        "url": "campione"
+    },
+    {
+        "title": "cardcaptor sakura",
+        "url": "cardcaptor-sakura"
+    },
+    {
+        "title": "carnival phantasm",
+        "url": "carnival-phantasm"
+    },
+    {
+        "title": "case closed",
+        "url": "detective-conan"
+    },
+    {
+        "title": "chainsaw man",
+        "url": "chainsaw-man"
+    },
+    {
+        "title": "charlotte",
+        "url": "charlotte"
+    },
+    {
+        "title": "clannad",
+        "url": "clannad"
+    },
+    {
+        "title": "clannad: after story",
+        "url": "clannad-after-story"
+    },
+    {
+        "title": "classroom of the elite",
+        "url": "classroom-elite"
+    },
+    {
+        "title": "claymore",
+        "url": "claymore"
+    },
+    {
+        "title": "cobra: the animation",
+        "url": "cobra-animation"
+    },
+    {
+        "title": "code geass: akito the exiled",
+        "url": "digimon-adventure-02"
+    },
+    {
+        "title": "code geass: lelouch of the rebellion",
+        "url": "code-geass"
+    },
+    {
+        "title": "code geass: lelouch of the rebellion films",
+        "url": "cells-work-code-black"
+    },
+    {
+        "title": "code geass: lelouch of the rebellion special edition",
+        "url": "cells-work"
+    },
+    {
+        "title": "cowboy bebop",
+        "url": "cowboy-bebop"
+    },
+    {
+        "title": "d-frag!",
+        "url": "d-frag"
+    },
+    {
+        "title": "d.gray-man",
+        "url": "d-gray-man"
+    },
+    {
+        "title": "dagashi kashi",
+        "url": "dagashi-kashi"
+    },
+    {
+        "title": "darling in the franxx",
+        "url": "darling-franxx"
+    },
+    {
+        "title": "darwin's game",
+        "url": "darwins-game"
+    },
+    {
+        "title": "deadman wonderland",
+        "url": "deadman-wonderland"
+    },
+    {
+        "title": "death note",
+        "url": "death-note"
+    },
+    {
+        "title": "death note: relight",
+        "url": "food-wars-second-plate-1"
+    },
+    {
+        "title": "death parade",
+        "url": "death-parade"
+    },
+    {
+        "title": "demon slayer: kimetsu no yaiba",
+        "url": "demon-slayer-kimetsu-no-yaiba"
+    },
+    {
+        "title": "demon slayer: kimetsu no yaiba the movie: mugen train",
+        "url": "demon-slayer-kimetsu-no-yaiba-movie-mugen-train"
+    },
+    {
+        "title": "den-noh coil",
+        "url": "dennou-coil"
+    },
+    {
+        "title": "detective school q",
+        "url": "detective-school-q"
+    },
+    {
+        "title": "devilman crybaby",
+        "url": "devilman-crybaby"
+    },
+    {
+        "title": "digimon adventure",
+        "url": "digimon-adventure"
+    },
+    {
+        "title": "digimon adventure tri. films",
+        "url": "digimon-adventure-tri"
+    },
+    {
+        "title": "digimon adventure:",
+        "url": "digimon-adventure-2020"
+    },
+    {
+        "title": "don't toy with me, miss nagatoro",
+        "url": "don%e2%80%99t-toy-me-miss-nagatoro"
+    },
+    {
+        "title": "dorohedoro",
+        "url": "dragon-ball-super-broly"
+    },
+    {
+        "title": "dororo",
+        "url": "dororo"
+    },
+    {
+        "title": "dr. stone",
+        "url": "dr-stone"
+    },
+    {
+        "title": "dragon ball",
+        "url": "dragon-ball"
+    },
+    {
+        "title": "dragon ball films",
+        "url": "kakegurui"
+    },
+    {
+        "title": "dragon ball gt",
+        "url": "dragon-ball-gt"
+    },
+    {
+        "title": "dragon ball ovas",
+        "url": "blue-period-0"
+    },
+    {
+        "title": "dragon ball specials",
+        "url": "ranking-kings"
+    },
+    {
+        "title": "dragon ball super",
+        "url": "dragon-ball-super"
+    },
+    {
+        "title": "dragon ball super films",
+        "url": "dragon-ball-super-broly-0"
+    },
+    {
+        "title": "dragon ball z",
+        "url": "dragon-ball-z"
+    },
+    {
+        "title": "dragon ball z kai",
+        "url": "dragon-ball-z-kai"
+    },
+    {
+        "title": "dragon quest the adventure of dai",
+        "url": "dragon-quest-adventure-dai"
+    },
+    {
+        "title": "drifters",
+        "url": "drifters"
+    },
+    {
+        "title": "durarara!!",
+        "url": "durarara"
+    },
+    {
+        "title": "durarara!! oads",
+        "url": "happy-go-lucky-days"
+    },
+    {
+        "title": "edens zero",
+        "url": "edens-zero"
+    },
+    {
+        "title": "elfen lied",
+        "url": "elfen-lied"
+    },
+    {
+        "title": "emma: a victorian romance",
+        "url": "emma-victorian-romance"
+    },
+    {
+        "title": "erased",
+        "url": "erased"
+    },
+    {
+        "title": "excel saga",
+        "url": "excel-saga"
+    },
+    {
+        "title": "f-zero legend of falcon",
+        "url": "f-zero-legend-falcon"
+    },
+    {
+        "title": "fairy tail",
+        "url": "fairy-tail"
+    },
+    {
+        "title": "fairy tail films",
+        "url": "lupin-third-part-i"
+    },
+    {
+        "title": "fairy tail ovas",
+        "url": "kinnikuman"
+    },
+    {
+        "title": "fairy tail: 100 years quest",
+        "url": "elemental-gelade"
+    },
+    {
+        "title": "fate/apocrypha",
+        "url": "fate-apocrypha"
+    },
+    {
+        "title": "fate/kaleid liner prisma illya",
+        "url": "fatekaleid-liner-prisma-illya"
+    },
+    {
+        "title": "fate/stay night",
+        "url": "fatestay-night"
+    },
+    {
+        "title": "fate/stay night",
+        "url": "fatestay-night-unlimited-blade-works"
+    },
+    {
+        "title": "fate/zero",
+        "url": "fate-zero"
+    },
+    {
+        "title": "fire force",
+        "url": "fire-force"
+    },
+    {
+        "title": "fist of the blue sky",
+        "url": "fist-of-the-blue-sky"
+    },
+    {
+        "title": "fist of the blue sky: regenesis",
+        "url": "fist-of-the-blue-sky-regenesis"
+    },
+    {
+        "title": "fist of the north star",
+        "url": "hokuto-no-ken"
+    },
+    {
+        "title": "food wars!",
+        "url": "shokugeki-no-soma"
+    },
+    {
+        "title": "food wars! ovas",
+        "url": "bakemonogatari"
+    },
+    {
+        "title": "fractale",
+        "url": "boruto-naruto-next-generations-manga-canon"
+    },
+    {
+        "title": "fruits basket",
+        "url": "fruits-basket-2001"
+    },
+    {
+        "title": "fruits basket",
+        "url": "fruits-basket-2019"
+    },
+    {
+        "title": "full metal panic!",
+        "url": "full-metal-panic"
+    },
+    {
+        "title": "fullmetal alchemist",
+        "url": "fullmetal-alchemist"
+    },
+    {
+        "title": "fullmetal alchemist films",
+        "url": "pok%c3%a9mon-sun-and-moon"
+    },
+    {
+        "title": "fullmetal alchemist ovas",
+        "url": "pok%c3%a9mon-black-and-white"
+    },
+    {
+        "title": "fullmetal alchemist: brotherhood",
+        "url": "fullmetal-alchemist-brotherhood"
+    },
+    {
+        "title": "fullmetal alchemist: brotherhood ovas",
+        "url": "pok%c3%a9mon-x-and-y"
+    },
+    {
+        "title": "gangsta.",
+        "url": "gangsta"
+    },
+    {
+        "title": "gantz",
+        "url": "gantz"
+    },
+    {
+        "title": "ghost in the shell films",
+        "url": "nekomonogatari-kuro"
+    },
+    {
+        "title": "ghost in the shell: arise",
+        "url": "ghost-shell-arise"
+    },
+    {
+        "title": "ghost in the shell: sac_2045",
+        "url": "digimon-tamers"
+    },
+    {
+        "title": "ghost in the shell: stand alone complex",
+        "url": "ghost-shell-stand-alone-complex"
+    },
+    {
+        "title": "ghost in the shell: stand alone complex films",
+        "url": "devilman-birth"
+    },
+    {
+        "title": "gintama",
+        "url": "gintama"
+    },
+    {
+        "title": "gintama films",
+        "url": "seirei-tsukai-no-blade-dance"
+    },
+    {
+        "title": "girlfriend, girlfriend",
+        "url": "girlfriend-girlfriend"
+    },
+    {
+        "title": "girls' last tour",
+        "url": "girls-last-tour"
+    },
+    {
+        "title": "goblin slayer",
+        "url": "goblin-slayer"
+    },
+    {
+        "title": "golden kamuy",
+        "url": "golden-kamuy"
+    },
+    {
+        "title": "gosick",
+        "url": "gosick"
+    },
+    {
+        "title": "great teacher onizuka",
+        "url": "great-teacher-onizuka"
+    },
+    {
+        "title": "gurren lagann",
+        "url": "gurren-lagann"
+    },
+    {
+        "title": "haikyu!!",
+        "url": "haikyuu"
+    },
+    {
+        "title": "hajime no ippo: the fighting!",
+        "url": "fighting-spirit"
+    },
+    {
+        "title": "hakyu hoshin engi",
+        "url": "hakyu-hoshin-engi"
+    },
+    {
+        "title": "hanamonogatari",
+        "url": "hanamonogatari"
+    },
+    {
+        "title": "handa-kun",
+        "url": "handa-kun"
+    },
+    {
+        "title": "hayate the combat butler",
+        "url": "hayate-combat-butler"
+    },
+    {
+        "title": "heaven's lost property",
+        "url": "heavens-lost-property"
+    },
+    {
+        "title": "hell girl",
+        "url": "hell-girl"
+    },
+    {
+        "title": "hellsing",
+        "url": "hellsing"
+    },
+    {
+        "title": "hellsing ultimate",
+        "url": "hellsing-ultimate"
+    },
+    {
+        "title": "hell\u2019s paradise",
+        "url": "hell%e2%80%99s-paradise"
+    },
+    {
+        "title": "highschool dxd",
+        "url": "high-school-dxd"
+    },
+    {
+        "title": "highschool of the dead",
+        "url": "highschoool-dead"
+    },
+    {
+        "title": "higurashi: when they cry",
+        "url": "when-they-cry"
+    },
+    {
+        "title": "hikaru no go",
+        "url": "hikaru-no-go"
+    },
+    {
+        "title": "hunter x hunter",
+        "url": "hunter-x-hunter-2011-films"
+    },
+    {
+        "title": "hunter \u00d7 hunter",
+        "url": "hunter-x-hunter-1999"
+    },
+    {
+        "title": "hunter \u00d7 hunter",
+        "url": "hunter-x-hunter"
+    },
+    {
+        "title": "initial d",
+        "url": "initial-d"
+    },
+    {
+        "title": "initial d extra stage",
+        "url": "initial-d-extra-stage"
+    },
+    {
+        "title": "initial d extra stage 2",
+        "url": "initial-d-extra-stage-2"
+    },
+    {
+        "title": "initial d third stage",
+        "url": "initial-d-third-stage"
+    },
+    {
+        "title": "inuyasha",
+        "url": "inuyasha"
+    },
+    {
+        "title": "inuyashiki last hero",
+        "url": "inuyashiki-last-hero"
+    },
+    {
+        "title": "is it wrong to try to pick up girls in a dungeon?",
+        "url": "it-wrong-try-pick-girls-dungeon"
+    },
+    {
+        "title": "is it wrong to try to pick up girls in a dungeon? on the side: sword oratoria",
+        "url": "it-wrong-try-pick-girls-dungeon-side-sword-oratoria"
+    },
+    {
+        "title": "jojo's bizarre adventure",
+        "url": "jojos-biarre-adenture-ova"
+    },
+    {
+        "title": "jojo's bizarre adventure: the animation",
+        "url": "jojos-bizarre-adventure-tv"
+    },
+    {
+        "title": "jujutsu kaisen",
+        "url": "jujutsu-kaisen"
+    },
+    {
+        "title": "jujutsu kaisen 0",
+        "url": "jujutsu-kaisen-0-movie"
+    },
+    {
+        "title": "k",
+        "url": "k"
+    },
+    {
+        "title": "k: seven stories",
+        "url": "k-seven-stories"
+    },
+    {
+        "title": "kabaneri of the iron fortress",
+        "url": "kabaneri-iron-fortress"
+    },
+    {
+        "title": "kaguya-sama: love is war",
+        "url": "kaguya-sama-love-war"
+    },
+    {
+        "title": "kaguya-sama: love is war ovas",
+        "url": "kaguya-sama-love-war-ovas"
+    },
+    {
+        "title": "kaiju no. 8",
+        "url": "kaiju-no8"
+    },
+    {
+        "title": "kamisama kiss",
+        "url": "kamisama-kiss"
+    },
+    {
+        "title": "kenichi: the mightiest disciple",
+        "url": "kenichi-mightiest-disciple"
+    },
+    {
+        "title": "kill la kill",
+        "url": "kill-la-kill"
+    },
+    {
+        "title": "killing bites",
+        "url": "killing-bites"
+    },
+    {
+        "title": "kingdom",
+        "url": "kingdom"
+    },
+    {
+        "title": "kirby: right back at ya!",
+        "url": "kirby-right-back-ya"
+    },
+    {
+        "title": "kiznaiver",
+        "url": "kiznaiver"
+    },
+    {
+        "title": "kizumonogatari",
+        "url": "kizumonogatari"
+    },
+    {
+        "title": "komi can't communicate",
+        "url": "komi-cant-communicate"
+    },
+    {
+        "title": "konosuba -god's blessing on this wonderful world!",
+        "url": "konosuba-gods-blessing-wonderful-world"
+    },
+    {
+        "title": "kuroko\u2019s basketball",
+        "url": "kuroko%e2%80%99s-basketball"
+    },
+    {
+        "title": "land of the lustrous",
+        "url": "land-lustrous"
+    },
+    {
+        "title": "lord marksman and vanadis",
+        "url": "madan-no-ou-vanadis-lord-marksman-and-vanadis"
+    },
+    {
+        "title": "made in abyss",
+        "url": "made-abyss"
+    },
+    {
+        "title": "magi",
+        "url": "magi-labyrinth-magic"
+    },
+    {
+        "title": "magi: adventure of sinbad",
+        "url": "magi-adventure-sinbad-tv"
+    },
+    {
+        "title": "magia record: puella magi madoka magica side story",
+        "url": "magia-record-puella-magi-madoka-magica-side-story"
+    },
+    {
+        "title": "magic knight rayearth",
+        "url": "magic-knight-rayearth"
+    },
+    {
+        "title": "maid-sama!",
+        "url": "maid-sama"
+    },
+    {
+        "title": "masamune-kun's revenge",
+        "url": "masamune-kuns-revenge"
+    },
+    {
+        "title": "mashle: magic and muscles",
+        "url": "mashle-magic-and-muscles"
+    },
+    {
+        "title": "mf ghost",
+        "url": "mf-ghost"
+    },
+    {
+        "title": "michiko & hatchin",
+        "url": "michiko-hatchin"
+    },
+    {
+        "title": "miss kobayashi's dragon maid",
+        "url": "miss-kobayashis-dragon-maid"
+    },
+    {
+        "title": "mob psycho 100",
+        "url": "mob-psycho-100"
+    },
+    {
+        "title": "mobile suit gundam",
+        "url": "mobile-suit-gundam"
+    },
+    {
+        "title": "monogatari",
+        "url": "monogatari-series"
+    },
+    {
+        "title": "monogatari series second season",
+        "url": "monogatari-series-second-season"
+    },
+    {
+        "title": "monster",
+        "url": "monster"
+    },
+    {
+        "title": "my dress-up darling",
+        "url": "my-dress-darling"
+    },
+    {
+        "title": "my hero academia",
+        "url": "my-hero-academia"
+    },
+    {
+        "title": "my hero academia films",
+        "url": "my-hero-academia-movies"
+    },
+    {
+        "title": "my hero academia ovas",
+        "url": "pok%c3%a9mon-series-xyz"
+    },
+    {
+        "title": "my next life as a villainess: all routes lead to doom!",
+        "url": "my-next-life-villainess-all-routes-lead-doom"
+    },
+    {
+        "title": "nadia: the secret of blue water",
+        "url": "nadia-secret-blue-water"
+    },
+    {
+        "title": "naruto",
+        "url": "naruto"
+    },
+    {
+        "title": "naruto films",
+        "url": "boruto-naruto-movie"
+    },
+    {
+        "title": "naruto ovas",
+        "url": "mobile-suit-gundam-zz"
+    },
+    {
+        "title": "naruto shippuden",
+        "url": "naruto-shippuden"
+    },
+    {
+        "title": "negima!",
+        "url": "magister-negi-magi"
+    },
+    {
+        "title": "negima! ovas",
+        "url": "negima-ovaoad"
+    },
+    {
+        "title": "negima!?",
+        "url": "noragami-aragoto"
+    },
+    {
+        "title": "neon genesis evangelion",
+        "url": "neon-genesis-evangelion"
+    },
+    {
+        "title": "neon genesis evangelion films",
+        "url": "neon-genesis-evangelion-films"
+    },
+    {
+        "title": "nisekoi: false love",
+        "url": "nisekoi-false-love"
+    },
+    {
+        "title": "nisemonogatari",
+        "url": "nisemonogatari"
+    },
+    {
+        "title": "no game, no life",
+        "url": "no-game-no-life"
+    },
+    {
+        "title": "noragami",
+        "url": "noragami"
+    },
+    {
+        "title": "noragami ovas",
+        "url": "city-hunter"
+    },
+    {
+        "title": "one pace",
+        "url": "one-pace"
+    },
+    {
+        "title": "one piece",
+        "url": "one-piece"
+    },
+    {
+        "title": "one piece films",
+        "url": "one-piece-movies"
+    },
+    {
+        "title": "one piece ovas",
+        "url": "your-eternity-0"
+    },
+    {
+        "title": "one piece specials",
+        "url": "mobile-suit-zeta-gundam"
+    },
+    {
+        "title": "one-punch man",
+        "url": "one-punch-man"
+    },
+    {
+        "title": "orange",
+        "url": "orange"
+    },
+    {
+        "title": "ouran high school host club",
+        "url": "ouran-high-school-host-club"
+    },
+    {
+        "title": "outlaw star",
+        "url": "outlaw-star"
+    },
+    {
+        "title": "overlord",
+        "url": "overlord"
+    },
+    {
+        "title": "owarimonogatari",
+        "url": "owarimonogatari"
+    },
+    {
+        "title": "parasyte: the maxim",
+        "url": "parasyte-maxim"
+    },
+    {
+        "title": "platinum end",
+        "url": "platinum-end"
+    },
+    {
+        "title": "pluto",
+        "url": "pluto"
+    },
+    {
+        "title": "pok\u00e9mon",
+        "url": "pokemon"
+    },
+    {
+        "title": "pok\u00e9mon advanced generation",
+        "url": "pok%c3%a9mon-advanced-generation"
+    },
+    {
+        "title": "pok\u00e9mon diamond and pearl",
+        "url": "pok%c3%a9mon-diamond-and-pearl"
+    },
+    {
+        "title": "pok\u00e9mon origins",
+        "url": "pok%c3%a9mon-origins-0"
+    },
+    {
+        "title": "pok\u00e9mon: original series",
+        "url": "pok%c3%a9mon-original-series"
+    },
+    {
+        "title": "prison school",
+        "url": "prison-school"
+    },
+    {
+        "title": "project arms",
+        "url": "project-arms"
+    },
+    {
+        "title": "psycho-pass",
+        "url": "psycho-pass"
+    },
+    {
+        "title": "psycho-pass films",
+        "url": "blue-period"
+    },
+    {
+        "title": "psycho-pass: extended edition",
+        "url": "food-wars-third-plate-1"
+    },
+    {
+        "title": "psycho-pass: sinners of the system",
+        "url": "super-dragon-ball-heroes"
+    },
+    {
+        "title": "puella magi madoka magica",
+        "url": "puella-magi-madoka-magica"
+    },
+    {
+        "title": "puella magi madoka magica films",
+        "url": "puella-magi-madoka-magica-films"
+    },
+    {
+        "title": "ranma \u00bd",
+        "url": "ranma-%c2%bd"
+    },
+    {
+        "title": "rave master",
+        "url": "rave-master"
+    },
+    {
+        "title": "re:zero -starting life in another world-",
+        "url": "re-zero-starting-life-another-world"
+    },
+    {
+        "title": "reborn!",
+        "url": "katekyo-hitman-reborn"
+    },
+    {
+        "title": "rebuild of evangelion",
+        "url": "miraculous-ladybug"
+    },
+    {
+        "title": "record of ragnarok",
+        "url": "record-ragnarok"
+    },
+    {
+        "title": "redo of healer",
+        "url": "redo-healer"
+    },
+    {
+        "title": "relife",
+        "url": "relife"
+    },
+    {
+        "title": "rent-a-girlfriend",
+        "url": "rent-girlfriend"
+    },
+    {
+        "title": "revolutionary girl utena",
+        "url": "revolutionary-girl-utena"
+    },
+    {
+        "title": "ron kamonohashi's forbidden deductions",
+        "url": "ron-kamonohashis-forbidden-deductions"
+    },
+    {
+        "title": "rosario + vampire",
+        "url": "rosario-vampire"
+    },
+    {
+        "title": "rurouni kenshin",
+        "url": "rurouni-kenshin"
+    },
+    {
+        "title": "rurouni kenshin",
+        "url": "rurouni-kenshin-2023"
+    },
+    {
+        "title": "rwby",
+        "url": "rwby"
+    },
+    {
+        "title": "rwby: ice queendom",
+        "url": "yakusoku-no-neverland"
+    },
+    {
+        "title": "saga of tanya the evil",
+        "url": "sage-tanya-evil"
+    },
+    {
+        "title": "sailor moon",
+        "url": "sailor-moon"
+    },
+    {
+        "title": "sailor moon crystal",
+        "url": "sailor-moon-crystal"
+    },
+    {
+        "title": "sailor moon crystal films",
+        "url": "tokyo-ghoul-%e2%88%9a-5"
+    },
+    {
+        "title": "sailor moon films",
+        "url": "naruto-movie-ninja-clash-land-snow"
+    },
+    {
+        "title": "sailor moon specials",
+        "url": "naruto-movie-legend-stone-gelel"
+    },
+    {
+        "title": "saint seiya",
+        "url": "saint-seiya"
+    },
+    {
+        "title": "samurai champloo",
+        "url": "samurai-champloo"
+    },
+    {
+        "title": "school rumble",
+        "url": "school-days"
+    },
+    {
+        "title": "school rumble: extra class",
+        "url": "orient"
+    },
+    {
+        "title": "seraph of the end: vampire reign",
+        "url": "seraph-end"
+    },
+    {
+        "title": "serial experiments lain",
+        "url": "serial-experiments-lain"
+    },
+    {
+        "title": "sgt. frog",
+        "url": "keroro-gunsou-sgtfrog"
+    },
+    {
+        "title": "shadows house",
+        "url": "shadows-house"
+    },
+    {
+        "title": "shaman king",
+        "url": "shaman-king"
+    },
+    {
+        "title": "shaman king",
+        "url": "shaman-king-2021"
+    },
+    {
+        "title": "shaman king: flowers",
+        "url": "shaman-kingflowers"
+    },
+    {
+        "title": "shugo chara",
+        "url": "shugo-chara"
+    },
+    {
+        "title": "silver spoon",
+        "url": "silver-spoon"
+    },
+    {
+        "title": "sket dance",
+        "url": "sket-dance"
+    },
+    {
+        "title": "skip beat!",
+        "url": "skip-beat"
+    },
+    {
+        "title": "slam dunk",
+        "url": "slam-dunk-0"
+    },
+    {
+        "title": "soul eater",
+        "url": "soul-eater"
+    },
+    {
+        "title": "soul eater not!",
+        "url": "soul-eater-not"
+    },
+    {
+        "title": "soul hunter",
+        "url": "soul-hunter"
+    },
+    {
+        "title": "space cobra",
+        "url": "space-cobra"
+    },
+    {
+        "title": "space patrol luluco",
+        "url": "space-patrol-luloco"
+    },
+    {
+        "title": "spy x family",
+        "url": "spy-x-family"
+    },
+    {
+        "title": "steins;gate",
+        "url": "steinsgate"
+    },
+    {
+        "title": "steins;gate 0",
+        "url": "steins-gate-0"
+    },
+    {
+        "title": "summer time rendering",
+        "url": "summertime-render"
+    },
+    {
+        "title": "super dragon ball heroes",
+        "url": "dragon-ball-heroes"
+    },
+    {
+        "title": "sword art online",
+        "url": "sword-art-online"
+    },
+    {
+        "title": "sword art online alternative: gun gale online",
+        "url": "sword-art-online-alternative-ggo"
+    },
+    {
+        "title": "sword art online: alicization",
+        "url": "sword-art-online-alicization"
+    },
+    {
+        "title": "terror in resonance",
+        "url": "terror-resonance"
+    },
+    {
+        "title": "that time i got reincarnated as a slime",
+        "url": "time-i-got-reincarnated-slime"
+    },
+    {
+        "title": "the ancient magus' bride",
+        "url": "ancient-magus-bride"
+    },
+    {
+        "title": "the asterisk war",
+        "url": "asterisk-war"
+    },
+    {
+        "title": "the devil is a part-timer!",
+        "url": "devil-part-timer"
+    },
+    {
+        "title": "the familiar of zero",
+        "url": "familiar-zero"
+    },
+    {
+        "title": "the future diary",
+        "url": "future-diary"
+    },
+    {
+        "title": "the god of high school",
+        "url": "god-high-school"
+    },
+    {
+        "title": "the heroic legend of arslan",
+        "url": "heroic-legend-arslan"
+    },
+    {
+        "title": "the melancholy of haruhi suzumiya",
+        "url": "melancholy-haruhi-suzumiya"
+    },
+    {
+        "title": "the prince of tennis",
+        "url": "prince-tennis-0"
+    },
+    {
+        "title": "the promised neverland",
+        "url": "promised-neverland"
+    },
+    {
+        "title": "the rising of the shield hero",
+        "url": "rising-shield-hero"
+    },
+    {
+        "title": "the seven deadly sins",
+        "url": "nanatsu-no-taizai"
+    },
+    {
+        "title": "the seven deadly sins: four knights of the apocalypse",
+        "url": "seven-deadly-sins-four-knights-apocalypse"
+    },
+    {
+        "title": "thus spoke rohan kishibe",
+        "url": "chrono-crusade"
+    },
+    {
+        "title": "to love ru",
+        "url": "love-ru"
+    },
+    {
+        "title": "to love ru: darkness",
+        "url": "love-ru-darkness"
+    },
+    {
+        "title": "to the abandoned sacred beasts",
+        "url": "abandoned-sacred-beasts"
+    },
+    {
+        "title": "to your eternity",
+        "url": "your-eternity"
+    },
+    {
+        "title": "tokyo ghoul",
+        "url": "tokyo-ghoul"
+    },
+    {
+        "title": "tokyo ghoul:re",
+        "url": "tokyo-ghoul-re-0"
+    },
+    {
+        "title": "tokyo mew mew",
+        "url": "tokyo-mew-mew"
+    },
+    {
+        "title": "tokyo revengers",
+        "url": "tokyo-revengers"
+    },
+    {
+        "title": "toradora!",
+        "url": "toradora"
+    },
+    {
+        "title": "toriko",
+        "url": "toriko"
+    },
+    {
+        "title": "trigun",
+        "url": "trigun"
+    },
+    {
+        "title": "tsugumomo",
+        "url": "tsugumomo"
+    },
+    {
+        "title": "tsukimonogatari",
+        "url": "tsukimonogatari"
+    },
+    {
+        "title": "undead unluck",
+        "url": "undead-unluck"
+    },
+    {
+        "title": "uq holder!",
+        "url": "uq-holder-magister-negi-magi-2"
+    },
+    {
+        "title": "urusei yatsura",
+        "url": "urusei-yatsura"
+    },
+    {
+        "title": "vampire knight",
+        "url": "vampire-knight"
+    },
+    {
+        "title": "vinland saga",
+        "url": "vinland-saga"
+    },
+    {
+        "title": "we never learn!: bokuben",
+        "url": "we-never-learn-bokuben"
+    },
+    {
+        "title": "x",
+        "url": "x"
+    },
+    {
+        "title": "yashahime: princess half-demon",
+        "url": "yashahime-princess-half-demon"
+    },
+    {
+        "title": "yona of the dawn",
+        "url": "akatsuki-no-yona"
+    },
+    {
+        "title": "your lie in april",
+        "url": "your-lie-april"
+    },
+    {
+        "title": "yowamushi pedal",
+        "url": "yowamushi-pedal"
+    },
+    {
+        "title": "yu yu hakusho",
+        "url": "yuyu-hakusho"
+    },
+    {
+        "title": "yu-gi-oh!",
+        "url": "yu-gi-oh"
+    },
+    {
+        "title": "yu-gi-oh! 5d's",
+        "url": "yu-gi-oh-5ds"
+    },
+    {
+        "title": "yu-gi-oh! arc-v",
+        "url": "yu-gi-oh-arc-v"
+    },
+    {
+        "title": "yu-gi-oh! capsule monsters",
+        "url": "yu-gi-oh-capsule-monsters"
+    },
+    {
+        "title": "yu-gi-oh! duel monsters",
+        "url": "yu-gi-oh-duel-monsters"
+    },
+    {
+        "title": "yu-gi-oh! films",
+        "url": "yu-gi-oh-films"
+    },
+    {
+        "title": "yu-gi-oh! gx",
+        "url": "yu-gi-oh-gx"
+    },
+    {
+        "title": "yu-gi-oh! sevens",
+        "url": "yu-gi-oh-sevens"
+    },
+    {
+        "title": "yu-gi-oh! vrains",
+        "url": "yu-gi-oh-vrains"
+    },
+    {
+        "title": "yu-gi-oh! zexal",
+        "url": "yu-gi-oh-zexal"
+    },
+    {
+        "title": "yu-no: a girl who chants love at the bound of this world",
+        "url": "yu-no-girl-who-chants-love-bound-world"
+    },
+    {
+        "title": "zatch bell!",
+        "url": "zatch-bell"
+    },
+    {
+        "title": "zom 100: bucket list of the dead",
+        "url": "zom-100-bucket-list-dead"
+    }
+]
