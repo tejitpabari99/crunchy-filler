@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Crunchyroll Filler",
   "description": "This extension marks filler episodes with a star icon on Crunchyroll series pages.",
-  "version": "1.01",
+  "version": "1.03",
   "permissions": ["activeTab", "storage", "offscreen"],
   "host_permissions": [
     "https://www.animefillerlist.com/*",
