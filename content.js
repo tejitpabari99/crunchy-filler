@@ -32,9 +32,18 @@ function addStarToFillerEpisodes(fillerEpisodes) {
 }
 
 function getAnimeTitle() {
-  const titleElement = document.querySelector(".hero-heading-line");
-  const titleElementH1 = titleElement.querySelector("h1");
-  return titleElementH1 ? titleElementH1.textContent.trim() : null;
+  const url = window.location.href;
+  
+  // Match Crunchyroll series URLs: /series/[ID]/[anime-name]
+  const match = url.match(/\/series\/[^\/]+\/([^\/\?#]+)/);
+  
+  if (match) {
+    const urlName = match[1];
+    // Convert hyphens to spaces and capitalize for better matching
+    return urlName.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+  }
+  
+  return null;
 }
 
 function getFillerListUrl(animeTitle, fuseAgent) {
@@ -85,16 +94,19 @@ function fetchFormattedTitleJSON() {
 
 function initializeFillerMarker() {
   const animeTitle = getAnimeTitle();
-  console.log("Anime Title:", animeTitle);
+  console.debug("Anime Title:", animeTitle);
   if (animeTitle) {
     fetchFormattedTitleJSON().then((formattedTitleJSON) => {
       const fuseAgent = new Fuse(formattedTitleJSON, fuseOptions);
 
       const fillerListUrl = getFillerListUrl(animeTitle, fuseAgent);
+      console.debug("Filler List URL:", fillerListUrl);
+      
       if (fillerListUrl) {
         chrome.runtime.sendMessage(
           { action: "getFillerEpisodes", url: fillerListUrl },
           (response) => {
+            console.debug("Response from background:", response);
             if (chrome.runtime.lastError) {
               console.error("SendMessage Error:", chrome.runtime.lastError);
               chrome.runtime.reload(); // Reload the extension
@@ -121,10 +133,11 @@ function initializeFillerMarker() {
 
 // Use MutationObserver to wait for the title element to appear
 const observer = new MutationObserver((mutations, obs) => {
-  const titleElement = document.querySelector(
-    ".hero-heading-line .heading--nKNOf"
+  const animeFirstSeason = document.querySelector(
+    ".season-info"
   );
-  if (titleElement) {
+  if (animeFirstSeason) {
+    console.debug("Episode series found, initializing filler marker");
     // obs.disconnect();
     initializeFillerMarker();
   }
@@ -137,9 +150,9 @@ observer.observe(document.body, {
 
 // Fallback: If the element doesn't appear after 5 seconds, try to initialize anyway
 setTimeout(() => {
-  if (!document.querySelector(".hero-heading-line .heading--nKNOf")) {
+  if (!document.querySelector(".season-info")) {
     console.warn(
-      "Title element not found after timeout, attempting to initialize anyway"
+      "Episode series element not found after timeout, attempting to initialize anyway"
     );
     initializeFillerMarker();
   }
