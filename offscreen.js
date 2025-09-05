@@ -27,27 +27,29 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         const fillerDiv = doc.querySelector(".filler");
         const mixedDiv = doc.querySelector(".mixed_canon\\/filler");
 
-        let fillerEpisodes = [];
+        let regularFillerEpisodes = [];
+        let mixedFillerEpisodes = [];
 
         if (fillerDiv) {
           const fillerEpisodesText =
             fillerDiv.querySelector(".Episodes").textContent;
-          fillerEpisodes = fillerEpisodes.concat(
-            parseEpisodeNumbers(fillerEpisodesText)
-          );
+          regularFillerEpisodes = parseEpisodeNumbers(fillerEpisodesText);
         }
 
         if (mixedDiv) {
           const mixedEpisodesText =
             mixedDiv.querySelector(".Episodes").textContent;
-          fillerEpisodes = fillerEpisodes.concat(
-            parseEpisodeNumbers(mixedEpisodesText)
-          );
+          mixedFillerEpisodes = parseEpisodeNumbers(mixedEpisodesText);
         }
 
-        fillerEpisodes = [...new Set(fillerEpisodes)].sort((a, b) => a - b);
+        // Combine all filler episodes for backward compatibility
+        const allFillerEpisodes = [...new Set([...regularFillerEpisodes, ...mixedFillerEpisodes])].sort((a, b) => a - b);
 
-        sendResponse({ fillerEpisodes: fillerEpisodes });
+        sendResponse({ 
+          fillerEpisodes: allFillerEpisodes,
+          regularFillerEpisodes: regularFillerEpisodes,
+          mixedFillerEpisodes: mixedFillerEpisodes
+        });
       })
       .catch((error) => {
         console.error("Error fetching filler episodes:", error);

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Crunchyroll Filler",
-  "description": "This extension marks filler episodes with a star icon on Crunchyroll series pages.",
-  "version": "1.03",
+  "name": "Crunchy Filler",
+  "description": "Filler episode marking for anime enthusiasts.",
+  "version": "1.10",
   "permissions": ["activeTab", "storage", "offscreen"],
   "host_permissions": [
     "https://www.animefillerlist.com/*",
@@ -14,7 +14,12 @@
   "content_scripts": [
     {
       "matches": ["https://www.crunchyroll.com/series/*"],
-      "js": ["fuse.basic.min.js", "content.js"],
+      "js": [
+        "scripts/fuse.basic.min.js",
+        "sources/animeFillerService.js",
+        "providers/crunchyroll.js",
+        "content.js"
+      ],
       "css": ["styles.css"]
     }
   ],
@@ -27,5 +32,11 @@
     "48": "assets/icons/crunchyFiller48.png",
     "128": "assets/icons/crunchyFiller128.png",
     "1024": "assets/icons/crunchyFiller1024.png"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["data/fanFavourites.json", "data/crunchyName_animeFillerUrlName.json"],
+      "matches": ["https://www.crunchyroll.com/*"]
+    }
+  ]
 }
