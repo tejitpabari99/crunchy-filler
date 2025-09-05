@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crunchy Filler</title>
+  <style>
+    body { 
+      width: 350px; 
+      padding: 12px; 
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.5;
+      color: #333;
+      background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+      margin: 0;
+    }
+    
+    .container {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    
+    h1 { 
+      color: #ff6b35;
+      margin: 0 0 10px 0;
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+    }
+    
+    .subtitle {
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    
+    .legend {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    
+    .legend h3 {
+      margin: 0 0 12px 0;
+      font-size: 16px;
+      color: #333;
+      font-weight: 600;
+    }
+    
+    .filler-type {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      padding: 8px;
+      border-radius: 6px;
+      background: white;
+      border: 1px solid #e9ecef;
+    }
+    
+    .filler-type:last-child {
+      margin-bottom: 0;
+    }
+    
+    .star-icon {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+    
+    .star-icon.filler {
+      background-color: #ffd700;
+      border-radius: 50%;
+      border: 2px solid #ffed4e;
+    }
+    
+    .star-icon.mixed {
+      background-color: #4c9bff;
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+      border: 2px solid #74abff;
+    }
+    
+    .star-icon.fan-favourite {
+      background-color: #ff4757;
+      border: 2px solid #ff6b7a;
+      clip-path: path('M10,15 C10,15 2,10 2,7 C2,4 4,2 7,2 C8,2 9,2.5 10,3.5 C11,2.5 12,2 13,2 C16,2 18,4 18,7 C18,10 10,15 10,15 Z');
+    }
+    
+    .description {
+      flex: 1;
+    }
+    
+    .description strong {
+      color: #333;
+      font-weight: 600;
+    }
+    
+    .description span {
+      color: #666;
+      font-size: 12px;
+    }
+    
+    .links {
+      text-align: center;
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 1px solid #e9ecef;
+    }
+    
+    .links p {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+    
+    a {
+      color: #ff6b35;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    .support-button {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: all 0.2s;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      background: #ff6b35;
+      color: white;
+      margin-bottom: 10px;
+    }
+    
+    .support-button:hover {
+      background: #e55a2b;
+      text-decoration: none;
+    }
+    
+    .coffee-link {
+      color: #007bff;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    
+    .coffee-link:hover {
+      text-decoration: underline;
+    }
+    
+    .icon {
+      margin-right: 6px;
+      font-size: 16px;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Crunchy Filler</h1>
+    <p class="subtitle">Filler episode marking for anime enthusiasts</p>
+    
+    <div class="legend">
+      <h3>Episode Categories</h3>
+      
+      <div class="filler-type">
+        <div class="star-icon filler"></div>
+        <div class="description">
+          <strong>Filler Episodes</strong><br>
+          <span>Non-canon content (episodes not in manga). Safe to skip.</span>
+        </div>
+      </div>
+      
+      <div class="filler-type">
+        <div class="star-icon mixed"></div>
+        <div class="description">
+          <strong>Mixed Canon/Filler</strong><br>
+          <span>Contains both story (manga) and filler content.</span>
+        </div>
+      </div>
+      
+      <div class="filler-type">
+        <div class="star-icon fan-favourite"></div>
+        <div class="description">
+          <strong>Fan Favourites</strong><br>
+          <span>Community-recommended filler episodes.</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="links">
+      <a href="mailto:tejtipabari99@gmail.com" class="support-button">
+        Contact Support
+      </a>
+      <br>
+      <a href="https://buymeacoffee.com/tejitpabari" target="_blank" class="coffee-link">
+        Buy me a Coffee
+      </a>
+    </div>
+  </div>
+</body>
+</html>

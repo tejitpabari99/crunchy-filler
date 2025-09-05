@@ -1,0 +1,3 @@
+# Firefox extension specific ignores
+*.xpi
+web-ext-artifacts/
